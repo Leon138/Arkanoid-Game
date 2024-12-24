@@ -133,7 +133,7 @@ export const init = () => {
   menu.style.display = 'none'; 
   canvas.style.display = 'block';
   gameState.currentLevel = 1; 
-  gameState.lives = 1; 
+  gameState.lives = 3; 
   gameState.score = 0; 
   gameState.gameOver = false;
   createBricks(gameState.currentLevel);
