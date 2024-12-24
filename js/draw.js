@@ -15,7 +15,7 @@ export const images = {
   platform: loadImage('./images/platform.png'),
   background: loadImage('./images/background.png'),
   gameOver: loadImage('./images/you_lose1.png'),
-  backgroundBtn: loadImage('./../images/btn.PNG'),
+  backgroundBtn: loadImage('/images/btn.PNG'),
 }
 
 export const drawBricks = () => {
